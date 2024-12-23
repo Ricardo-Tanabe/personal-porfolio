@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O objetivo do projeto é criar um Website
+                                      utilizando apenas HTML com múltiplas páginas,
+                                      cada uma contendo as características propostas
+                                      no projeto 'Basic HTML Website'">
+    <meta name="keywords" content="HTML, Basic HTML Website, Projeto">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website básico em HTML</title>
+</head>
+<body>
+    <section>
+        <article>
+            <h1>Contact Page</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Homepage</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </article>
+    </section>
+    <section>
+        <form>
+            <fieldset>
+                <legend>Your data</legend>
+                <label for="name">Name:</label><br />
+                <input type="text" name="name" id="name" placeholder="Insert your name"><br />
+                <label for="email">E-mail:</label><br />
+                <input type="text" name="email" id="email" placeholder="E-mail"><br />
+                <label for="feedback">User Feedback:</label><br />
+                <textarea name="feedback" id="feedback" placeholder="Insert your text"></textarea><br />
+                <input list="option" id="option-choice" name="option-choice" /><br />
+                <datalist id="option">
+                    <option value="option1">option1</option>
+                    <option value="option2">option2</option>
+                    <option value="option3">option3</option>
+                    <option value="option4">option4</option>
+                    <option value="option5">option5</option>
+                </datalist>
+                <select id="selector">
+                    <option>--Choose an option--</option>
+                    <optgroup label="selector">
+                        <option>selector1</option>
+                        <option>selector2</option>
+                        <option>selector3</option>
+                    </optgroup>
+                    <optgroup label="otherselector">
+                        <option>otherselector1</option>
+                        <option>otherselector2</option>
+                        <option>otherselector3</option>
+                    </optgroup>
+                </select><br />
+                <button type="submit">submit</button>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
