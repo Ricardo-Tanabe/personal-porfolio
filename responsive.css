@@ -1,0 +1,134 @@
+@media(max-width: 656px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 20px;
+    }
+    
+    #header-top {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #header-top > div {
+        margin: auto 10px;
+        padding: 15px 0;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    #header-top > nav{
+        margin: auto 15px 0;
+    }
+    
+    #header-top > nav > ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #header-top > nav > ul > li {
+        display: inline;
+    }
+    
+    #header-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #header-title > h1 {
+        font-size: 20px;
+        margin: 10px 0 0;
+    }
+    
+    #header-title > h4 {
+        font-size: 14px;
+        color: rgb(180, 180, 180);
+        margin: 0 0px 20px;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #main-project {
+        text-align: center;
+    }
+
+    #main-project > h3 {
+        margin: 0;
+    }
+    
+    #main-project-ul {
+        list-style-type: none;
+        background-color: rgb(230, 230, 230);
+    }
+
+    #main-project-ul > li:first-child.top-border,
+    #main-work > div:nth-child(2).top-border {
+        border-top: 2px solid black;
+    }
+    
+    #main-work > h3{
+        text-align: center;
+        margin: 5px;
+    }
+
+    #main-work > div {
+        margin: 0;
+        padding: 10px;
+        background-color: rgb(230, 230, 230);
+    }
+    
+    #main-work a {
+        text-decoration: none;
+        
+    }
+    
+    #main-work a:hover {
+        text-decoration: underline;
+    }
+
+    #main-education > h3 {
+        text-align: center;
+        margin: 5px;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    footer > h3 {
+        text-align: center;
+    }
+    
+    #footer-block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer-block > div:not(:first-child) {
+        display: none;
+    }
+
+    .footer-balloon {
+        margin: 15px 10px;
+        border-radius: 40px;
+    }
+    
+    #footer-copyright {
+        margin: 15px 0 150px;
+    } 
+}
